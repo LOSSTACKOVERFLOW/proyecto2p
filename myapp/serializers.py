@@ -37,3 +37,19 @@ class ComboProductoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = ComboProducto
         fields = ['IsCombo', 'Combo', 'Producto']
+
+class ConsumidorSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Consumidor
+        fields = ['Consumidor_id']
+
+
+class Orden_MenuSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Orden_Menu
+        fields = ['Cliente', 'Fecha','Total']
+
+class CategoriaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Categoria
+        fields = ['Nombre','Descripcion']
