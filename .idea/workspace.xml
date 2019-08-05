@@ -20,12 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cafereal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -36,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="204">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -48,22 +48,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="1207">
               <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/sites.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,58 +111,6 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="DLLs" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="django" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="django" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="django" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +119,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../practica/mysite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,15 +147,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14410187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14385298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -227,11 +159,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -269,10 +205,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/sites.py" />
     <entry file="file://$PROJECT_DIR$/cafereal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -281,7 +218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -289,19 +226,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="1207">
           <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />

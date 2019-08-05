@@ -1,6 +1,21 @@
 from .models import *
 from rest_framework import serializers
 
+class ContactoSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Contacto
+        fields = ['Nombre', 'Email', 'Ciudad', 'Asunto', 'Fecha_Nacimiento', 'Mensaje']
+
+
+class PersonaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Persona
+        fields = ['Persona_id', 'Contacto']
+
+class ClienteSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Contacto
+        fields = ['Nombre', 'Apellido', 'Edad', 'Ciudad', 'Correo']
 class ProductoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Producto
