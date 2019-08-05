@@ -24,3 +24,29 @@ class ComboViewSet(viewsets.ModelViewSet):
 class ComboProductoViewSet(viewsets.ModelViewSet):    
     queryset = ComboProducto.objects.all()
     serializer_class = ComboProductoSerializer
+
+class PersonaViewSet(viewsets.ModelViewSet):
+    queryset = Persona.objects.all()
+    serializer_class = PersonaSerializer
+
+
+class ContactoViewSet(viewsets.ModelViewSet):
+    queryset = Contacto.objects.all()
+    serializer_class = ContactoSerializer
+
+class ClienteViewSet(viewsets.ModelViewSet):
+    queryset = Cliente.objects.all()
+    serializer_class = ClienteSerializer
+
+class ConsumidorViewSet(viewsets.ModelViewSet):
+    queryset = Consumidor.objects.all()
+    serializer_class = ConsumidorSerializer
+
+class Orden_MenuViewSet(viewsets.ModelViewSet):
+    queryset = Orden_Menu.objects.all()
+    serializer_class = Orden_MenuSerializer
+
+class CategoriaViewSet(viewsets.ModelViewSet):
+    queryset = Categoria.objects.all()
+    serializer_class = CategoriaSerializer
+
