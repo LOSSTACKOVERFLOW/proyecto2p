@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path,include
 from . import views
 from  rest_framework import routers 
 
@@ -14,6 +14,6 @@ router.register(r'Detalle_orden_menu', views.Detalle_orden_menuViewSet)
 router.register(r'Combo', views.ComboViewSet)
 router.register(r'ComboProducto', views.ComboProductoViewSet)
 urlpatterns = [
-   
+   path('rest-auth/', include('rest_auth.urls')),
 ]
 urlpatterns+=router.urls
