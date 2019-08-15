@@ -15,7 +15,7 @@ class PersonaSerializer(serializers.HyperlinkedModelSerializer):
 class ClienteSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Contacto
-        fields = ['Nombre', 'Apellido', 'Edad', 'Ciudad', 'Correo']
+        fields = '__all__'
 class ProductoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Producto
@@ -30,7 +30,7 @@ class Detalle_orden_menuSerializer(serializers.HyperlinkedModelSerializer):
 class ComboSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Combo
-        fields = ['Descripcion', 'precio']
+        fields = '__all__'
 
 
 class ComboProductoSerializer(serializers.HyperlinkedModelSerializer):

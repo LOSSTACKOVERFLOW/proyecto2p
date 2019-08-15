@@ -1,10 +1,9 @@
 from django.http import HttpResponse
-from .models import *
+from .models import Producto,Detalle_orden_menu,Combo,ComboProducto,Consumidor,Persona,Contacto,Cliente,Categoria,Orden_Menu
 from rest_framework import viewsets
-from .serializers import *
+from .serializers import ProductoSerializer,Detalle_orden_menuSerializer,ComboSerializer,ComboProductoSerializer,PersonaSerializer,ContactoSerializer,ConsumidorSerializer,ClienteSerializer,CategoriaSerializer,Orden_MenuSerializer
 
-def index(request):
-    return HttpResponse("Hello, estamos empezando Café Real")
+
 # Create your views here.
 
 class ProductoViewSet(viewsets.ModelViewSet):   
