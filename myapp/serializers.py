@@ -27,7 +27,7 @@ class Detalle_orden_menuSerializer(serializers.HyperlinkedModelSerializer):
         model = Detalle_orden_menu
         fields = ['Orden_Menu', 'Producto', 'Descripcion']
 
-class ComboSerializer(serializers.HyperlinkedModelSerializer):
+class ComboSerializer(serializers.ModelSerializer):
     class Meta:
         model = Combo
         fields = '__all__'

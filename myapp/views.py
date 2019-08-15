@@ -15,7 +15,8 @@ class Detalle_orden_menuViewSet(viewsets.ModelViewSet):
     queryset = Detalle_orden_menu.objects.all()
     serializer_class = Detalle_orden_menuSerializer
 
-class ComboViewSet(viewsets.ModelViewSet):   
+class ComboViewSet(viewsets.ModelViewSet): 
+    lookup_field='Descripcion'   
     queryset = Combo.objects.all()
     serializer_class = ComboSerializer
 
@@ -46,6 +47,7 @@ class Orden_MenuViewSet(viewsets.ModelViewSet):
     serializer_class = Orden_MenuSerializer
 
 class CategoriaViewSet(viewsets.ModelViewSet):
+    lookup_field='Nombre'
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
 
