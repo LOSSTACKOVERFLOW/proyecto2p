@@ -25,13 +25,12 @@ class ClienteSerializer(serializers.ModelSerializer):
 
 
 class ProductoSerializer(serializers.ModelSerializer):
-    def to_representation(self, instance):
-        if isinstance(instance, Categoria):
-            return CategoriaSerializer(instance=instance).data
+
+    combos = serializers.StringRelatedField(many=True, read_only=False)
 
     class Meta:
         model = Producto
-        fields = ['Categoria', 'Nombre', 'Precio', 'IsBebida', 'IsPlato', 'Descripcion', 'Foto']
+        fields = ['Nombre', 'Precio', 'IsBebida', 'IsPlato', 'Descripcion', 'Foto', 'Categoria','combos']
 
 
 class Detalle_orden_menuSerializer(serializers.ModelSerializer):
@@ -47,6 +46,8 @@ class ComboSerializer(serializers.ModelSerializer):
 
 
 class ComboProductoSerializer(serializers.ModelSerializer):
+
+
     class Meta:
         model = ComboProducto
         fields = ['IsCombo', 'Combo', 'Producto']
@@ -65,6 +66,9 @@ class Orden_MenuSerializer(serializers.ModelSerializer):
 
 
 class CategoriaSerializer(serializers.ModelSerializer):
+    tracks = serializers.StringRelatedField(many=True, read_only=False)
+
+
     class Meta:
         model = Categoria
-        fields = ['Nombre', 'Descripcion']
+        fields = ['Nombre', 'Descripcion', 'tracks']

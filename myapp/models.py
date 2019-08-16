@@ -17,7 +17,7 @@ class Contacto(models.Model):
 
 class Persona(models.Model):
     Persona_id = models.AutoField(primary_key=True)
-    Contacto = models.ForeignKey(Contacto, on_delete=models.CASCADE)
+    Contacto = models.ForeignKey(Contacto, on_delete=models.CASCADE, related_name='personas')
 
 
 class Cliente(Persona):
@@ -50,21 +50,21 @@ class Categoria(models.Model):
 
 
 class Producto(models.Model):
-    Categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
     Nombre = models.CharField(max_length=30)
     Precio = models.DecimalField(max_digits=4, decimal_places=2)
     IsBebida = models.BooleanField()
     IsPlato = models.BooleanField()
     Descripcion = models.CharField(max_length=800)
     Foto = models.ImageField
+    Categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, related_name='tracks')
 
     def __str__(self):
         return self.Nombre
 
 
 class Detalle_orden_menu(models.Model):
-    Orden_Menu = models.ForeignKey(Orden_Menu, on_delete=models.CASCADE)
-    Producto = models.ForeignKey(Producto, on_delete=models.CASCADE)
+    Orden_Menu = models.ForeignKey(Orden_Menu, on_delete=models.CASCADE, related_name='detalleO')
+    Producto = models.ForeignKey(Producto, on_delete=models.CASCADE, related_name='detalleP')
     Descripcion = models.CharField(max_length=800)
 
 
@@ -79,4 +79,4 @@ class Combo(models.Model):
 class ComboProducto(models.Model):
     IsCombo = models.BooleanField()
     Combo = models.ForeignKey(Combo, on_delete=models.CASCADE)
-    Producto = models.ForeignKey(Producto, on_delete=models.CASCADE)
+    Producto = models.ForeignKey(Producto, on_delete=models.CASCADE, related_name='combos')
