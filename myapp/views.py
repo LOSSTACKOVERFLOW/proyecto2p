@@ -6,48 +6,56 @@ from .serializers import ProductoSerializer,Detalle_orden_menuSerializer,ComboSe
 
 # Create your views here.
 
-class ProductoViewSet(viewsets.ModelViewSet):   
+class ProductoViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Producto.objects.all()
     serializer_class = ProductoSerializer
 
 
-class Detalle_orden_menuViewSet(viewsets.ModelViewSet):   
+class Detalle_orden_menuViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Detalle_orden_menu.objects.all()
     serializer_class = Detalle_orden_menuSerializer
 
-class ComboViewSet(viewsets.ModelViewSet): 
-    lookup_field='Descripcion'   
+class ComboViewSet(viewsets.ModelViewSet):
+    lookup_field='id'
     queryset = Combo.objects.all()
     serializer_class = ComboSerializer
 
 
-class ComboProductoViewSet(viewsets.ModelViewSet):    
+class ComboProductoViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = ComboProducto.objects.all()
     serializer_class = ComboProductoSerializer
 
 class PersonaViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Persona.objects.all()
     serializer_class = PersonaSerializer
 
 
 class ContactoViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Contacto.objects.all()
     serializer_class = ContactoSerializer
 
 class ClienteViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Cliente.objects.all()
     serializer_class = ClienteSerializer
 
 class ConsumidorViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Consumidor.objects.all()
     serializer_class = ConsumidorSerializer
 
 class Orden_MenuViewSet(viewsets.ModelViewSet):
+    lookup_field = 'id'
     queryset = Orden_Menu.objects.all()
     serializer_class = Orden_MenuSerializer
 
 class CategoriaViewSet(viewsets.ModelViewSet):
-    lookup_field='Nombre'
+    lookup_field = 'id'
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
 

@@ -3,19 +3,15 @@ from rest_framework import serializers
 
 
 class ContactoSerializer(serializers.ModelSerializer):
-    def to_representation(self, instance):
-        if isinstance(instance, Categoria):
-            return CategoriaSerializer(instance=instance).data
-
     class Meta:
-        model = Contacto
-        fields = ['Nombre', 'Email', 'Ciudad', 'Asunto', 'Fecha_Nacimiento', 'Mensaje']
+        model=Contacto
+        fields = '__all__'
 
 
 class PersonaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Persona
-        fields = ['Persona_id', 'Contacto']
+        fields = '__all__'
 
 
 class ClienteSerializer(serializers.ModelSerializer):
@@ -25,19 +21,15 @@ class ClienteSerializer(serializers.ModelSerializer):
 
 
 class ProductoSerializer(serializers.ModelSerializer):
-
-    combos = serializers.StringRelatedField(many=True, read_only=False)
-
     class Meta:
-        model = Producto
-        fields = ['Nombre', 'Precio', 'IsBebida', 'IsPlato', 'Descripcion', 'Foto', 'Categoria','combos']
+        model=Producto
+        fields = '__all__'
 
 
 class Detalle_orden_menuSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Detalle_orden_menu
-        fields = ['Orden_Menu', 'Producto', 'Descripcion']
-
+        model=Detalle_orden_menu
+        fields = '__all__'
 
 class ComboSerializer(serializers.ModelSerializer):
     class Meta:
@@ -56,19 +48,16 @@ class ComboProductoSerializer(serializers.ModelSerializer):
 class ConsumidorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Consumidor
-        fields = ['Consumidor_id']
+        fields = '__all__'
 
 
 class Orden_MenuSerializer(serializers.ModelSerializer):
     class Meta:
         model = Orden_Menu
-        fields = ['Cliente', 'Fecha', 'Total']
+        fields = '__all__'
 
 
 class CategoriaSerializer(serializers.ModelSerializer):
-    tracks = serializers.StringRelatedField(many=True, read_only=False)
-
-
     class Meta:
         model = Categoria
-        fields = ['Nombre', 'Descripcion', 'tracks']
+        fields = '__all__'

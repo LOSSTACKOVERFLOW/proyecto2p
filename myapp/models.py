@@ -44,7 +44,6 @@ class Orden_Menu(models.Model):
 class Categoria(models.Model):
     Nombre = models.CharField(max_length=20)
     Descripcion = models.CharField(max_length=30)
-
     def __str__(self):
         return self.Nombre
 
@@ -57,9 +56,10 @@ class Producto(models.Model):
     Descripcion = models.CharField(max_length=800)
     Foto = models.ImageField
     Categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, related_name='tracks')
-
     def __str__(self):
         return self.Nombre
+    def __str__(Categoria):
+        return Categoria.Nombre
 
 
 class Detalle_orden_menu(models.Model):
