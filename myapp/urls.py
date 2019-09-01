@@ -14,6 +14,6 @@ router.register(r'Detalle_orden_menu', views.Detalle_orden_menuViewSet)
 router.register(r'Combo', views.ComboViewSet)
 router.register(r'ComboProducto', views.ComboProductoViewSet)
 urlpatterns = [
-   #path('rest-auth/', include('rest_auth.urls')),
+   path('rest-auth/', include('rest_auth.urls')),
 ]
 urlpatterns+=router.urls

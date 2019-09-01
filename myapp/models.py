@@ -54,7 +54,7 @@ class Producto(models.Model):
     IsBebida = models.BooleanField()
     IsPlato = models.BooleanField()
     Descripcion = models.CharField(max_length=800)
-    Foto = models.ImageField
+    file = models.FileField(blank=False, null=False)
     Categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, related_name='tracks')
     def __str__(self):
         return self.Nombre
