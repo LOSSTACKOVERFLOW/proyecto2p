@@ -94,19 +94,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    },
-    'historial': {
-        'ENGINE': 'djongo',
-        'ENFORCE_SCHEMA': False,
-        'NAME': 'Historial',
-        'HOST': '127.0.0.1',
-        'PORT': 27017,
-        'USER': '',
-        'PASSWORD': '',
-        'AUTH_SOURCE': 'historial',
     }
 }
-DATABASE_ROUTERS=['myapp2.routers.MyApp2Router']
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators

@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f915c9-7f55-4b1f-9f56-a7eaff7dea55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp2/routers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cafereal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafereal/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cafereal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafereal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/routers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp2/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,27 +37,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp2/routers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp2/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -61,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cafereal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cafereal/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -90,7 +89,6 @@
         <option value="$PROJECT_DIR$/myapp/models.py" />
         <option value="$PROJECT_DIR$/myapp2/routers.py" />
         <option value="$PROJECT_DIR$/myapp2/models.py" />
-        <option value="$PROJECT_DIR$/cafereal/settings.py" />
         <option value="$PROJECT_DIR$/myapp2/admin.py" />
         <option value="$PROJECT_DIR$/myapp2/apps.py" />
         <option value="$PROJECT_DIR$/myapp2/test.py" />
@@ -99,6 +97,7 @@
         <option value="$PROJECT_DIR$/myapp2/views.py" />
         <option value="$PROJECT_DIR$/myapp2/urls.py" />
         <option value="$PROJECT_DIR$/cafereal/urls.py" />
+        <option value="$PROJECT_DIR$/cafereal/settings.py" />
       </list>
     </option>
   </component>
@@ -130,11 +129,6 @@
               <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyecto2p" type="462c0819:PsiDirectoryNode" />
               <item name="myapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto2p" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,13 +236,6 @@
     <entry file="file://$PROJECT_DIR$/db.sqlite3">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafereal/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp2/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -283,16 +270,6 @@
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -344,10 +321,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myapp2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cafereal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafereal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
