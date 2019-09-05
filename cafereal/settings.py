@@ -45,10 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myapp2',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
     'corsheaders',
+
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
@@ -92,9 +94,19 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'historial': {
+        'ENGINE': 'djongo',
+        'ENFORCE_SCHEMA': False,
+        'NAME': 'Historial',
+        'HOST': '127.0.0.1',
+        'PORT': 27017,
+        'USER': '',
+        'PASSWORD': '',
+        'AUTH_SOURCE': 'historial',
     }
 }
-
+DATABASE_ROUTERS=['myapp2.routers.MyApp2Router']
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
