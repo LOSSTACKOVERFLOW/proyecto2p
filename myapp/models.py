@@ -23,7 +23,7 @@ class Persona(models.Model):
 class Cliente(Persona):
     Nombre = models.CharField(max_length=10)
     Apellido = models.CharField(max_length=10)
-    Edad = models.CharField(max_length=3)
+    Edad = models.IntegerField()
     Ciudad = models.CharField(max_length=10)
     Correo = models.CharField(max_length=20)
     def __str__(self):
