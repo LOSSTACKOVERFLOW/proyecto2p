@@ -26,7 +26,6 @@ class Cliente(Persona):
     Edad = models.CharField(max_length=3)
     Ciudad = models.CharField(max_length=10)
     Correo = models.CharField(max_length=20)
-
     def __str__(self):
         return self.Nombre
 
@@ -54,7 +53,7 @@ class Producto(models.Model):
     IsBebida = models.BooleanField()
     IsPlato = models.BooleanField()
     Descripcion = models.CharField(max_length=800)
-    file = models.FileField(blank=False, null=False)
+    file = models.FileField(blank=False, null=True)
     Categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, related_name='tracks')
     def __str__(self):
         return self.Nombre
